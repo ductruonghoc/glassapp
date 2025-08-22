@@ -35,8 +35,7 @@ Backend được phát triển bằng **Java + Spring Boot**, đóng vai trò cu
 ``` Bash
 git clone https://github.com/ductruonghoc/glassapp.git
 cd glassapp
-mvn clean package
-java -jar target/glassapp-0.0.1-SNAPSHOT.jar
+./mvnw spring-boot:run
 ```
 
 ---
@@ -77,6 +76,5 @@ Backend is built with **Java + Spring Boot**, providing APIs for the tablet clie
 ``` Bash
 git clone https://github.com/ductruonghoc/glassapp.git
 cd glassapp
-mvn clean package
-java -jar target/glassapp-0.0.1-SNAPSHOT.jar
+./mvnw spring-boot:run
 ```
