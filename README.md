@@ -31,11 +31,12 @@ Backend được phát triển bằng **Java + Spring Boot**, đóng vai trò cu
 - **REST API (JSON)**
 - **Swagger/OpenAPI** cho mô tả API
 
-## Biên dịch và chạy cục bộ
-``` Java
-git clone ...
-cd project
-./mvnw spring-boot:run
+### Biên dịch và chạy cục bộ
+``` Bash
+git clone https://github.com/ductruonghoc/glassapp.git
+cd glassapp
+mvn clean package
+java -jar target/glassapp-0.0.1-SNAPSHOT.jar
 ```
 
 ---
@@ -71,3 +72,11 @@ Backend is built with **Java + Spring Boot**, providing APIs for the tablet clie
 - **H2 Database** (offline dev/test)
 - **REST API (JSON)**
 - **Swagger/OpenAPI** for API documentation
+
+### Local compile and run
+``` Bash
+git clone https://github.com/ductruonghoc/glassapp.git
+cd glassapp
+mvn clean package
+java -jar target/glassapp-0.0.1-SNAPSHOT.jar
+```
