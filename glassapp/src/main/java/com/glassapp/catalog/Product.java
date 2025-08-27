@@ -19,4 +19,5 @@ public class Product {
     private String material;
     private String size;
     private String imageUrl;
+    private String style;
 }
